@@ -20,6 +20,8 @@
 
 ## 📖 Contents
 - [Books](#books)
+- [Videos](#videos)
+- [Blogs](#blogs)
 - [My Other Awesome Lists](#my-other-awesome-lists)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -27,12 +29,13 @@
 
 ## Books
 - [Advanced Cyber Threat Intelligence and Hunting](https://www.amazon.com/Advanced-Cyber-Threat-Intelligence-Hunting/dp/1806380390)
+- [Attribution of Advanced Persistent Threats](https://www.amazon.com/Attribution-Advanced-Persistent-Threats-Cyber-Espionage-ebook/dp/B08DCL8X8L/)
 
 ## Videos
 
 ## Blogs
 - [APT Groups Encyclopedia | `Complete Threat Intelligence DB`](https://cyllex.io/encyclopedia/)
-
+- [MITRE ATT\&CK - APT Groups](https://attack.mitre.org/groups/)
 
 ##
 
