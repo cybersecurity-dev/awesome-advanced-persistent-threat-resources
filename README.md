@@ -1,5 +1,74 @@
 <div align="center">
 
+```mermaid
+mindmap
+  root((APT<br/>Kill Chain))
+    Reconnaissance
+      OSINT
+      Social Engineering
+      Employee Profiling
+    
+    Resource Development
+      Domains
+      C2 Servers
+      Malware Creation
+
+    Initial Access
+      Phishing
+      Exploit
+      Supply Chain
+
+    Persistence
+      Registry Keys
+      Scheduled Tasks
+      Services
+
+    Privilege Escalation
+      Exploits
+      Token Abuse
+
+    Defense Evasion
+      Obfuscation
+      Living-Off-The-Land
+      Process Injection
+
+    Credential Access
+      Keylogging
+      LSASS Dumping
+      Browser Credentials
+
+    Discovery
+      Host Discovery
+      Network Discovery
+      Account Discovery
+
+    Lateral Movement
+      RDP
+      SMB
+      PsExec
+
+    Collection
+      Documents
+      Databases
+      Emails
+
+    Command and Control
+      HTTPS
+      DNS
+      TOR
+      Cloud Services
+
+    Exfiltration
+      Encryption
+      Compression
+      Covert Channels
+
+    Impact
+      Espionage
+      Sabotage
+      Destruction
+```
+
 # Awesome Advanced Persistent Threat ([_APT_](https://wikipedia.org/wiki/Advanced_persistent_threat)) Resources [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
@@ -17,6 +86,73 @@
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
+```mermaid
+flowchart TD
+    
+    A[Strategic Objective]
+    
+    A --> B[Target Selection]
+    B --> C[Reconnaissance]
+
+    C --> C1[OSINT Collection]
+    C --> C2[Employee Profiling]
+    C --> C3[Network Footprinting]
+
+    C --> D[Resource Development]
+
+    D --> D1[Malware Development]
+    D --> D2[C2 Infrastructure Setup]
+    D --> D3[Domain Registration]
+
+    D --> E[Initial Access]
+
+    E --> E1[Spear Phishing]
+    E --> E2[Exploit Vulnerability]
+    E --> E3[Supply Chain Attack]
+
+    E --> F[Execution]
+
+    F --> G[Persistence]
+
+    G --> G1[Backdoor Installation]
+    G --> G2[Scheduled Tasks]
+    G --> G3[Registry Modification]
+
+    G --> H[Privilege Escalation]
+
+    H --> I[Defense Evasion]
+
+    I --> J[Credential Access]
+
+    J --> K[Discovery]
+
+    K --> K1[Host Discovery]
+    K --> K2[Network Discovery]
+    K --> K3[Account Discovery]
+
+    K --> L[Lateral Movement]
+
+    L --> M[Collection]
+
+    M --> N[Command & Control]
+
+    N --> O[Data Exfiltration]
+
+    O --> P[Mission Objective]
+
+    P --> P1[Cyber Espionage]
+    P --> P2[Intellectual Property Theft]
+    P --> P3[Critical Infrastructure Disruption]
+
+    P --> Q[Maintain Long-Term Presence]
+
+    Q --> J
+
+    style A fill:#d5e8d4
+    style P fill:#ffe6cc
+    style O fill:#f8cecc
+    style N fill:#dae8fc
+```
 
 ## 📖 Contents
 - [Books](#books)
